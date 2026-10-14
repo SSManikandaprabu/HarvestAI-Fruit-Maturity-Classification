@@ -1,0 +1,31 @@
+{
+  "model": "MobileNetV2",
+  "checkpoint_epoch": 5,
+  "test_images": 43581,
+  "accuracy": 93.0704,
+  "macro_precision": 69.8289,
+  "macro_recall": 94.8848,
+  "macro_f1": 78.3564,
+  "class_names": [
+    "Unripe",
+    "Ripen",
+    "Overripe"
+  ],
+  "confusion_matrix": [
+    [
+      1576,
+      95,
+      0
+    ],
+    [
+      1863,
+      37170,
+      1016
+    ],
+    [
+      7,
+      39,
+      1815
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+This folder is intentionally missing the trained weights.
+After you train MobileNetV2 in Kaggle, place:
+  best_mobilenetv2_full.pth
+  evaluation.json
+in this folder. The website will never make simulated predictions.
