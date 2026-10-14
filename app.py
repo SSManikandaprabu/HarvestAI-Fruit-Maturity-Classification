@@ -242,7 +242,7 @@ def predict():
         return jsonify({
             "status": "unsupported_or_uncertain_image",
             "verified": False,
-            "message": "Unable to verify a supported fruit. Please upload a clear fruit image.",
+           "message": "Unwanted object detected! Please upload a clear image of a supported fruit (apple, banana, or orange).",
             "detected_objects": v_info.get("detected_objects", []),
             "supported_fruits": sorted(list(SUPPORTED_FRUITS)),
             "model_filter": "SSDLite320 MobileNetV3 (COCO Object Detection)",
